@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grape Nuts', cursive;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+.Main-food{
+    background-color:#F2D388;
+    width: 100%;
+    display: flex;
+    padding:0 300px;
+    padding-top: 20px;
+}
+.Food-contant{
+    width: 40%;
+    height: 250px;
+}
+.Food-contant img{
+    border-radius: 100px;
+}
+.Food-name{
+    background-color: #F2D388;
+    width: 50%;
+    padding-top: 20px;
+}
+.Oreder-btn{
+    width: 150px;
+    height: 40px;
+    display: block;
+    left: 50%;
+    bottom: 0;
+    border-radius: 10px;
+    background-color: #ff443a ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.Oreder-btn a{
+    text-decoration: none; 
+    display: block;   
+    color: #fff; 
+}
+.Oreder-btn:hover{
+    background-color: gray;
+}
